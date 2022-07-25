@@ -11,9 +11,9 @@ public class Task1_loops {
         while (1 == flag) {
             System.out.print("Введите число:\t");
             number = console.nextLong();
-            if (number < 1 || number >= 40) {
+            if (number < 1 || number >= 20) {
                 System.out.println("Ошибка ввода");
-                System.out.println("Число должно быть меньше 40 и не отрица");
+                System.out.println("Число должно быть меньше 20 и не отрицательное");
                 number = 0;
             } else
                 flag = 0;
