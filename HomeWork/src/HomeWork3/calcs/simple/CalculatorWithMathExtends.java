@@ -1,6 +1,8 @@
 package HomeWork3.calcs.simple;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator {
+import HomeWork3.calcs.api.ICalculator;
+
+public class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
     //CalculatorWithOperator calculator;
     @Override
     public double pow(double number, int degree) {

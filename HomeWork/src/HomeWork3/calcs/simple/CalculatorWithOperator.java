@@ -1,5 +1,7 @@
 package HomeWork3.calcs.simple;
 
+import HomeWork3.calcs.api.ICalculator;
+
 /**
  * division     -   деление
  * multiplier   -   умножение
@@ -9,7 +11,7 @@ package HomeWork3.calcs.simple;
  * module       -   модуль числа
  * squareRoot   -   поожительный корень
  */
-public class CalculatorWithOperator {
+public class CalculatorWithOperator implements ICalculator {
     public double division(double divisible, double divisor) {
         return divisible / divisor;
     }
