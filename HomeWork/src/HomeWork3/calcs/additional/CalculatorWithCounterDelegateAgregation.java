@@ -1,13 +1,12 @@
 package HomeWork3.calcs.additional;
 
 public class CalculatorWithCounterDelegateAgregation {
-    private CalculatorWithCounterAutoSuper calculator;
+    private final CalculatorWithCounterAutoSuper calculator;
     private long count;
 
 
     public CalculatorWithCounterDelegateAgregation() {
         calculator = new CalculatorWithCounterAutoSuper();
-        this.calculator = calculator;
     }
 
     public double pow(double number, int degree) {
@@ -44,7 +43,7 @@ public class CalculatorWithCounterDelegateAgregation {
         incrementCountOperation();
         return calculator.multiplier(first_num, second_num);
     }
-    void incrementCountOperation(){
+    private void incrementCountOperation(){
         count++;
     }
     public long getCountOperation() {

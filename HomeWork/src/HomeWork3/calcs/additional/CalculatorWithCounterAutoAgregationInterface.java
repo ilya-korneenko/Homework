@@ -13,11 +13,11 @@ public class CalculatorWithCounterAutoAgregationInterface {
         return count;
     }
 
-    void incrementCountOperation() {
+    private void incrementCountOperation() {
         count++;
     }
 
-    ICalculator iCalculator;
+    private final ICalculator iCalculator;
 
 
     public double sum(double first_summand, double second_summand) {

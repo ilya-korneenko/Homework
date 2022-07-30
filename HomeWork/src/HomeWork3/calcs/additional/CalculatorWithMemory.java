@@ -5,7 +5,7 @@ import HomeWork3.calcs.api.ICalculator;
 import java.util.Scanner;
 
 public class CalculatorWithMemory {
-    ICalculator iCalculator;
+    private final ICalculator iCalculator;
     private double memoryTemp;
 
     public CalculatorWithMemory(ICalculator iCalculator) {

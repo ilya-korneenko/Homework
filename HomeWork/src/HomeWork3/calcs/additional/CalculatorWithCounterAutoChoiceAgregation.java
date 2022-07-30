@@ -120,7 +120,7 @@ public class CalculatorWithCounterAutoChoiceAgregation {
         return 0;
     }
 
-    void incrementCountOperation(){
+    private void incrementCountOperation(){
         count++;
     }
 

@@ -26,7 +26,7 @@ public class CalculatorWithOperatorMain {
 
     }
 
-    void Output(double number){
+    private void Output(double number){
         System.out.println(number);
     }
 }

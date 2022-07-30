@@ -3,7 +3,7 @@ package HomeWork3.calcs.additional;
 import HomeWork3.calcs.simple.CalculatorWithMathCopy;
 
 public class CalculatorWithCounterAutoAgregation {
-    private CalculatorWithMathCopy calculator;
+    private final CalculatorWithMathCopy calculator;
     private long count;
 
     CalculatorWithCounterAutoAgregation(CalculatorWithMathCopy calculator) {
@@ -50,7 +50,7 @@ public class CalculatorWithCounterAutoAgregation {
         return count;
     }
 
-    void incrementCountOperation() {
+    private void incrementCountOperation() {
         count++;
     }
 }

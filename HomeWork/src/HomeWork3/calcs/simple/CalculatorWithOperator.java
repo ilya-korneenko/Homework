@@ -54,34 +54,4 @@ public class CalculatorWithOperator implements ICalculator {
         return squareRoot;
     }
 
-//    double squareRoot(double number) {
-//        return Math.sqrt(number);
-
-//    }
-//    public double mySqrt(double number) {
-//        if (number < 2) return number;
-//        long num;
-//        double pivot;
-//        double left = 2, right = number / 2;
-//        while (left <= right) {
-//            pivot = left + (right - left) / 2;
-//            num = (long) (pivot * pivot);
-//            if (num > number) right = pivot - 1;
-//            else if (num < number) left = pivot + 1;
-//            else return pivot;
-//        }
-//        return right;
-//    }
-//public int mySqrt(int x) {
-//    if(x < 2){
-//        return x;
-//    }
-//    double x0 = x;
-//    double x1 = (x0 + x/x0)/2;
-//    while(Math.floor(x0) != Math.floor(x1)){
-//        x0 = x1;
-//        x1 = (x0 + x/x0)/2;
-//    }
-//    return (int)x0;
-//}
 }

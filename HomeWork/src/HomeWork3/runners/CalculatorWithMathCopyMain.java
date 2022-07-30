@@ -12,7 +12,7 @@ public class CalculatorWithMathCopyMain {
         double firthAction = calculator.sum(fourthAction, thirdAction);
         output(firthAction);
     }
-    static void output(double number){
+    public static void output(double number){
         System.out.println(number);
     }
 }

@@ -1,7 +1,6 @@
 package HomeWork3.runners;
 
 import HomeWork3.calcs.additional.CalculatorWithMemory;
-import HomeWork3.calcs.api.ICalculator;
 import HomeWork3.calcs.simple.CalculatorWithOperator;
 
 public class CalculatorWithMemoryMain {
@@ -12,5 +11,6 @@ public class CalculatorWithMemoryMain {
         double thirdAction = calculator.pow(secondAction, 2);
         double fourthAction = calculator.sum(4.1, firstAction);
         double fifthAction = calculator.sum(fourthAction, thirdAction);
+        System.out.println("Резултат: " + fifthAction);
     }
 }
