@@ -1,10 +1,10 @@
 package HomeWork3.runners;
 
-import HomeWork3.calcs.additional.CalculatorWithCounterDelegateAgregation;
+import HomeWork3.calcs.api.additional.CalculatorWithCounterAutoComposite;
 
 public class CalculatorWithCounterDelegateCompositeMain {
     public static void main(String[] args) {
-        CalculatorWithCounterDelegateAgregation calculator = new CalculatorWithCounterDelegateAgregation();
+        CalculatorWithCounterAutoComposite calculator = new CalculatorWithCounterAutoComposite();
         double firstAction = calculator.multiplier(15, 7);
         double secondAction = calculator.division(28, 5);
         double thirdAction = calculator.pow(secondAction, 2);

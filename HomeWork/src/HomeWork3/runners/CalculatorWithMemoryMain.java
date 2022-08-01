@@ -1,6 +1,6 @@
 package HomeWork3.runners;
 
-import HomeWork3.calcs.additional.CalculatorWithMemory;
+import HomeWork3.calcs.api.additional.CalculatorWithMemory;
 import HomeWork3.calcs.simple.CalculatorWithOperator;
 
 public class CalculatorWithMemoryMain {

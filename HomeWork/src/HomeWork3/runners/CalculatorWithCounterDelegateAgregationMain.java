@@ -1,6 +1,6 @@
 package HomeWork3.runners;
 
-import HomeWork3.calcs.additional.CalculatorWithCounterDelegateAgregation;
+import HomeWork3.calcs.api.additional.CalculatorWithCounterDelegateAgregation;
 
 public class CalculatorWithCounterDelegateAgregationMain {
     public static void main(String[] args) {

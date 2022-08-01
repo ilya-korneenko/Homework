@@ -28,6 +28,6 @@ public class CalculatorWithMathCopy implements ICalculator {
     }
 
     public double mySqrt(double number){
-        return Math.abs(number);
+        return Math.sqrt(number);
     }
 }

@@ -1,13 +1,15 @@
-package HomeWork3.calcs.additional;
+package HomeWork3.calcs.api.additional;
 
 import HomeWork3.calcs.simple.CalculatorWithMathCopy;
 
-public class CalculatorWithCounterAutoAgregation {
+public class CalculatorWithCounterAutoComposite {
+
     private final CalculatorWithMathCopy calculator;
     private long count;
 
-    CalculatorWithCounterAutoAgregation(CalculatorWithMathCopy calculator) {
-        this.calculator = calculator;
+
+    public CalculatorWithCounterAutoComposite(){
+        this.calculator= new CalculatorWithMathCopy();
     }
 
     public double division(double divisible, double divisor) {

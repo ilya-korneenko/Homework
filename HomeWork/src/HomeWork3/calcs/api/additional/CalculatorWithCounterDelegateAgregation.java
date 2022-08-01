@@ -1,4 +1,4 @@
-package HomeWork3.calcs.additional;
+package HomeWork3.calcs.api.additional;
 
 public class CalculatorWithCounterDelegateAgregation {
     private final CalculatorWithCounterAutoSuper calculator;

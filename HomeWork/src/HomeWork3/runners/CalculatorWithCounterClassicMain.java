@@ -1,6 +1,6 @@
 package HomeWork3.runners;
 
-import HomeWork3.calcs.additional.CalculatorWithCounterClassic;
+import HomeWork3.calcs.api.additional.CalculatorWithCounterClassic;
 
 /**
  * division     -   деление
