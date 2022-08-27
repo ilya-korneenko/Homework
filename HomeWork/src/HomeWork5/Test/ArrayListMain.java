@@ -1,11 +1,8 @@
 package HomeWork5.Test;
 
+import HomeWork5.Service.*;
 import HomeWork5.dto.Animal;
 import HomeWork5.dto.Person;
-import HomeWork5.Service.PasswordPerson;
-import HomeWork5.Service.ServiceName;
-import HomeWork5.Service.ServiceNickAnimal;
-import HomeWork5.Service.ServiceNickPerson;
 import HomeWork5.Sort.AnimalSort;
 import HomeWork5.Sort.PersonSort;
 
@@ -57,6 +54,10 @@ public class ArrayListMain<S>  {
         System.out.println("Операция: сортировка Animal в ArrayList. Заняла: " +
                 timeOperation +" мс");
 
+        System.out.println(personArrayList);
+//        DeleteCollection deleteCollection = new DeleteCollection();
+//        deleteCollection.deleteCollectionPerson(personArrayList);
+//        System.out.println("Новая: " + personArrayList);
     }
 
 }
